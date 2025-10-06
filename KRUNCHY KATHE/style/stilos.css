@@ -1,0 +1,31 @@
+
+.colorUno{
+
+    background-color: #845ec2;
+}
+
+.colorDos{
+
+    background-color: #d65db1;
+
+}
+
+.colorTres{
+
+    background-color: #ff6f91;
+}
+
+
+.fuente {
+  font-family: "Playwrite DE SAS", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.fondo{
+    background-image: url("../img/FONDO.jpg");
+    background-size: cover;
+    background-position: top center;
+    background-attachment: fixed;
+    padding: 25%;
+}
