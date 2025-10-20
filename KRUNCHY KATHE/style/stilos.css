@@ -1,7 +1,7 @@
 
 .colorUno{
 
-    background-color: #845ec2;
+    background-color: #F97D7D;
 }
 
 .colorDos{
@@ -23,15 +23,34 @@
 }
 
 .fondo{
-    background-image: url("../img/FONDO.jpg");
+    background-image: url("../img/fondofinal.jpg");
     background-size: cover;
     background-position: top center;
     background-attachment: fixed;
     padding: 25%;
 }
-.btn.btn-primary{
-
-     background-color: #d65db1;
-
+.btn.btn-primary {
+  background-color: #F97D7D;
+  border: none;
+  color: white;
+  transition: box-shadow 0.2s ease, transform 0.1s ease, background-color 0.2s ease;
 }
+
+.btn.btn-primary:hover,
+.btn.btn-primary:focus {
+  background-color: #f76b6b; /* un poco más oscuro para el efecto hover */
+  border: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  transform: translateY(-1px);
+  color: white; /* evita cambio de color de texto */
+}
+
+.btn.btn-primary:active {
+  background-color: #f45b5b; /* aún más oscuro al hacer clic */
+  border: none;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  transform: translateY(0);
+  color: white;
+}
+
 
